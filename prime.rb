@@ -3,6 +3,7 @@ def prime?(num)
   for counter in 2..num-1 do
     if num % counter == 0
       return false
+    end
   end
   return true
 end
